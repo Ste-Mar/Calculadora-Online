@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Javascript calculadora" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="style.css" type="text/css" />
+
+		<title>Calculadora online</title>
+	</head>
+
+	<body>
+		<h1 class="h1 margin-h1">Calculadora online 🤓</h1>
+
+		<form id="formulario" name="calcu">
+			<input name="display" class="resultado" type="reset" value="" />
+			<div class="div">
+				<button
+					class="bot numeros"
+					type="button"
+					value="0"
+					onclick="calcu.display.value+='0'"
+				>
+					0
+				</button>
+
+				<button
+					class="bot numeros"
+					type="button"
+					value="1"
+					onclick="calcu.display.value+='1'"
+				>
+					1
+				</button>
+
+				<button
+					class="bot numeros"
+					type="button"
+					value="2"
+					onclick="calcu.display.value+='2'"
+				>
+					2
+				</button>
+
+				<button
+					class="bot"
+					type="button"
+					value="+"
+					style="background: yellowgreen"
+					onclick="calcu.display.value+='+'"
+				>
+					+
+				</button>
+			</div>
+
+			<div class="div">
+				<button
+					class="bot numeros"
+					type="button"
+					value="3"
+					onclick="calcu.display.value+='3'"
+				>
+					3
+				</button>
+
+				<button
+					class="bot numeros"
+					type="button"
+					value="4"
+					onclick="calcu.display.value+='4'"
+				>
+					4
+				</button>
+
+				<button
+					class="bot numeros"
+					type="button"
+					value="5"
+					onclick="calcu.display.value+='5'"
+				>
+					5
+				</button>
+
+				<button
+					class="bot"
+					type="button"
+					value="-"
+					style="background: yellow"
+					onclick="calcu.display.value+='-'"
+				>
+					-
+				</button>
+			</div>
+
+			<div class="div">
+				<button
+					class="bot numeros"
+					type="button"
+					value="6"
+					onclick="calcu.display.value+='6'"
+				>
+					6
+				</button>
+
+				<button
+					class="bot numeros"
+					type="button"
+					value="7"
+					onclick="calcu.display.value+='7'"
+				>
+					7
+				</button>
+
+				<button
+					class="bot numeros"
+					type="button"
+					value="8"
+					onclick="calcu.display.value+='8'"
+				>
+					8
+				</button>
+
+				<button
+					class="bot"
+					type="button"
+					value="x"
+					style="background: violet"
+					onclick="calcu.display.value+='*'"
+				>
+					x
+				</button>
+			</div>
+
+			<div class="div">
+				<button
+					class="bot numeros"
+					type="button"
+					value="9"
+					onclick="calcu.display.value+='9'"
+				>
+					9
+				</button>
+
+				<button
+					class="bot"
+					type="button"
+					value="C"
+					style="background: red"
+					onclick="calcu.display.value=' '"
+				>
+					C
+				</button>
+
+				<button
+					class="bot"
+					type="button"
+					value="="
+					onclick="calcu.display.value=eval(calcu.display.value)"
+				>
+					=
+				</button>
+
+				<button
+					class="bot"
+					type="button"
+					value="&divide"
+					style="background: palevioletred"
+					onclick="calcu.display.value+='/'"
+				>
+					&divide
+				</button>
+			</div>
+		</form>
+	</body>
+
+	<footer>
+		<h2 class="footer">By S. Marcaccio - August 2020</h2>
+	</footer>
+</html>

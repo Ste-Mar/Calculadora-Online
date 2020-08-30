@@ -1,0 +1,48 @@
+* {
+	background: lightslategrey;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+	font-size: 60px;
+}
+
+.margin-h1 {
+	margin: 0px 0px 20px 0px;
+}
+
+.div {
+	display: flex;
+	margin: 20px 20px;
+	justify-content: center;
+}
+
+.resultado {
+	width: 80%;
+	height: 60px;
+	text-align: center;
+	margin-left: 125px;
+	background-color: lightseagreen;
+	border: 2px solid black;
+	font-weight: bolder;
+	font-size: x-large;
+}
+
+.bot {
+	margin: 10px 10px;
+	font-size: 40px;
+	width: 15%;
+	height: 50px;
+	border-radius: 30px;
+	border: 2px solid black;
+}
+
+.numeros {
+	background: blue;
+}
+
+.footer {
+	font: bolder;
+	font-size: medium;
+}
